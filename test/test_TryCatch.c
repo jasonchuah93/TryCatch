@@ -1,20 +1,14 @@
 #include "unity.h"
 #include "TryCatch.h"
 #include "CException.h"
-#include "Person.h"
-#include "Person.h"
+
 
 void setUp(){}
 void tearDown(){}
 
 
 
-//#define MAX 10
 
-#ifndef MAX
-	#define MAX 30
-
-#endif //MAX
 
 void test_justTryingOutTryCatch_should_throw_exception(){
 	struct Person_t person;
